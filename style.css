@@ -1,0 +1,83 @@
+.nav-item{
+    padding-left: 1rem;
+}
+
+.nav-text{
+    color: white;
+    font-family: ibmplexsans, sans-serif;
+    font-weight: 6rem;
+    font-size: 1rem;
+}
+.brand-text{
+    font-size: 2rem;
+    color: white;
+}
+.earn-btn{
+    background-color: white;
+    color:#0B65C6; 
+    border-radius: .4rem;
+    font-size: .6rem;
+}
+.brand-logo{
+    width: 2rem;
+    height: 2rem;
+    
+}
+.home{
+    padding-top: 5rem;
+}
+
+
+.home-head-text{
+    font-size: 2rem;
+}
+.home-sub-text{
+    font-size: 1rem;
+}
+.sec2-text{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.pad-text{
+    padding-top: 7rem;
+}
+.img-head{
+    font-size: 2rem;
+
+}
+.img-sub{
+    padding-top: 1.5rem;
+    font-size: 1rem;
+    color: rgb(104, 103, 103);
+
+}
+.footer-list{
+    list-style: none;
+}
+.list-head{
+    font-weight: 700;
+}
+
+
+
+@media (max-width:700px){
+    .sec3-head{
+        font-size: 1.9rem ;
+    }
+
+    .sym, .symhead,.ca{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+}
+@media (min-width:700px){
+    .ca{
+        margin-left: .5rem;
+    }
+    
+}
+.nav-text:hover{
+    color:rgb(154, 141, 141);
+}
